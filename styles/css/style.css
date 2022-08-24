@@ -132,7 +132,7 @@ section {
   margin-bottom: 100px;
 }
 #faq-section {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 /* carousel styling */
@@ -248,9 +248,6 @@ footer {
   background-color: #f1f3ff;
 }
 
-.footer-child {
-  margin: 1rem 0;
-}
 .navigation li {
   list-style: none;
 }
@@ -272,7 +269,7 @@ footer {
 }
 
 .accordion-item {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .link-footer:hover {
