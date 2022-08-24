@@ -29,13 +29,12 @@ h3 {
   line-height: 24px;
 }
 
-h4{
+h4 {
   font-size: 14px;
-  font-weight: bold;;
+  font-weight: bold;
   font-weight: 700;
   line-height: 20px;
   color: #000;
-  
 }
 
 p {
@@ -58,6 +57,11 @@ section {
   padding: 0;
 }
 
+.scroll {
+  background-color: white;
+}
+
+/* Start Navbar */
 .nav-link {
   color: #000;
   font-size: 14px;
@@ -73,10 +77,6 @@ section {
   align-items: flex-end;
 }
 
-.scroll{
-  background-color: white;
-}
-
 .btn {
   border: none;
   background-color: #5cb85f;
@@ -86,16 +86,18 @@ section {
   border-radius: 2px;
 }
 
-.btn:hover {
-  background-color: #42a045;
-  color: white;
-}
-
 .btn.selected {
   background-color: #42a045;
   color: white;
 }
 
+.btn:hover {
+  background-color: #42a045;
+  color: white;
+}
+/* End Navbar */
+
+/* Start Jumbotron */
 .jumbotron {
   padding-top: 80px;
 }
@@ -115,7 +117,7 @@ section {
   font-size: 14px;
 }
 
-#our-service-section{
+#our-service-section {
   margin-bottom: 100px;
 }
 #why-us-section {
@@ -124,13 +126,12 @@ section {
 #banner-section {
   margin-bottom: 100px;
 }
-#testimony-section{
+#testimony-section {
   margin-bottom: 100px;
 }
-#faq-section{
+#faq-section {
   margin-bottom: 10px;
 }
-
 
 /* carousel styling */
 
@@ -269,24 +270,20 @@ footer {
   margin-bottom: 20px;
 }
 
-
 .link-footer:hover {
   color: #0d28a6;
   text-decoration: double;
 }
 
 @media screen and (max-width: 768px) {
-
-  .buton{
+  .buton {
     align-items: flex-start;
   }
 
-
-  .jumbotron-text{
+  .jumbotron-text {
     width: fit-content;
-
   }
-  #jumbo{
+  #jumbo {
     margin-left: 1em;
   }
   .navbar-collapse {
@@ -301,7 +298,7 @@ footer {
     max-width: 50%;
   }
 
-  #service-img{
+  #service-img {
     padding-bottom: 2em;
     max-width: 80%;
   }
@@ -327,8 +324,7 @@ footer {
 
   .carousel-card {
     flex-direction: column;
-    
-}
+  }
 
   .carousel-text {
     display: flex;
@@ -354,28 +350,25 @@ footer {
     top: 445px;
   }
 
-  .cta-banner{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 10px;
-  gap: 32px;
-  width: 328px;
-  height: 400px;
+  .cta-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 32px;
+    width: 328px;
+    height: 400px;
   }
 
-  .navigation{
+  .navigation {
     align-items: flex-start;
-    margin: 1rem 0!important;
+    margin: 1rem 0 !important;
     gap: 0px;
   }
-
 }
 
-
-@media screen and (max-width:990px){ 
-
+@media screen and (max-width: 990px) {
   .navbar-collapse ul {
     margin-left: 1rem;
   }
@@ -384,14 +377,8 @@ footer {
     align-items: flex-start;
   }
 
-  .jumbotron-img{
+  .jumbotron-img {
     max-width: 100%;
     margin-bottom: 0;
   }
-
-
 }
-
-
-
-
