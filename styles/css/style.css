@@ -119,19 +119,19 @@ section {
 /* End Jumbotron */
 
 /* Margin Setiap Section */
-.our-service-section {
+#our-service-section {
   margin-bottom: 100px;
 }
-.why-us-section {
+#why-section {
   margin-bottom: 100px;
 }
-.banner-section {
+#banner-section {
   margin-bottom: 100px;
 }
-.testimony-section {
+#testimony-section {
   margin-bottom: 100px;
 }
-.faq-section {
+#faq-section {
   margin-bottom: 100px;
 }
 footer {
