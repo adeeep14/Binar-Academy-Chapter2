@@ -119,20 +119,23 @@ section {
 /* End Jumbotron */
 
 /* Margin Setiap Section */
-#our-service-section {
+.our-service-section {
   margin-bottom: 100px;
 }
-#why-us-section {
+.why-us-section {
   margin-bottom: 100px;
 }
-#banner-section {
+.banner-section {
   margin-bottom: 100px;
 }
-#testimony-section {
+.testimony-section {
   margin-bottom: 100px;
 }
-#faq-section {
+.faq-section {
   margin-bottom: 100px;
+}
+footer {
+  margin-bottom: 60px;
 }
 
 /* carousel styling */
@@ -240,9 +243,6 @@ section {
 }
 
 /* Footer */
-footer {
-  margin-bottom: 60px;
-}
 
 .footer {
   background-color: #f1f3ff;
@@ -255,7 +255,7 @@ footer {
 .navigation li a {
   text-decoration: none;
   color: #000;
-  gap: 16px;
+  gap: 20px;
 }
 
 .navigation a:hover {
