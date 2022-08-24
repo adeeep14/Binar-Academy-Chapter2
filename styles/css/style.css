@@ -116,7 +116,9 @@ section {
 .jumbotron-text p {
   font-size: 14px;
 }
+/* End Jumbotron */
 
+/* Margin Setiap Section */
 #our-service-section {
   margin-bottom: 100px;
 }
@@ -225,7 +227,9 @@ section {
   margin: 0 1rem;
   transform: rotate(180deg);
 }
+/* End Carousel */
 
+/* Banner */
 .cta-banner {
   text-align: center;
   color: #fff;
@@ -235,6 +239,7 @@ section {
   height: 326px;
 }
 
+/* Footer */
 footer {
   margin-bottom: 60px;
 }
@@ -274,7 +279,9 @@ footer {
   color: #0d28a6;
   text-decoration: double;
 }
+/* End Footer */
 
+/* Responsif */
 @media screen and (max-width: 768px) {
   .buton {
     align-items: flex-start;
